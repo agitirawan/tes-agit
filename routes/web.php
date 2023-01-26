@@ -19,3 +19,4 @@ Route::get('/', function () {
 });
 
 Route::get("/agit", [Maincontroller::class, 'index']);
+Route::get('/mainb', [HomeController::class, 'index']);

@@ -60,6 +60,74 @@
                 </tbody>
             </table>
 
+            <h6 style="padding-left: 7px;font-size: 20px;color: darkturquoise">Cost Detail</h6>
+
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Description</th>
+                  <th>Qty</th>
+                  <th>UOM</th>
+                  <th>Unit Price</th>
+                  <th>Discount (%)</th>
+                  <th>VAT (%)</th>
+                  <th>Currency</th>
+                  <th>Vat Amount</th>
+                  <th>Sub Total</th>
+                  <th>Total</th>
+                  <th>Charge To</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Description</td>
+                  <td>Qty</td>
+                  <td>SHP</td>
+                  <td>Unit Price</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>USD</td>
+                  <td>0.00</td>
+                  <td>0.00</td>
+                  <td>0.00</td>
+                  <td>Select an Option</td>
+                  <td>
+                      <a href="" class="btn btn-secondary" style="background-color: lightgray"><i class="bi bi-dash-lg"></i></a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Description</td>
+                  <td>Qty</td>
+                  <td>SHP</td> 
+                  <td>Unit Price</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>AED</td>
+                  <td>0.00</td>
+                  <td>0.00</td>
+                  <td>0.00</td>
+                  <td>Select an Option</td>
+                  <td>
+                      <a href="" class="btn btn-secondary" style="background-color: lightgray"><i class="bi bi-dash-lg"></i></a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Exchange Rate 1 USD = 3.6725</td>
+                  <td colspan="5">AED</td>
+                  <td>AED in Total</td>
+                  <td>0.00</td>
+                  <td>0.00</td>
+                  <td>0.00</td>
+                  <td></td>
+                  <td>
+                      <a href="" class="btn btn-secondary" style="background-color: lightseagreen"><i class="bi bi-plus-lg"></i></a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+    
+
             <div class="" style="text-align: right">
             {{-- Button --}}
             <a href="" class="btn">Cancel</a>
