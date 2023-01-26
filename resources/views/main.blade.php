@@ -91,7 +91,12 @@
                   <td>0.00</td>
                   <td>0.00</td>
                   <td>0.00</td>
-                  <td>Select an Option</td>
+                  <<td><select class="form-select" aria-label="Default select example">
+                    <option selected>Select an Option</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select></td>
                   <td>
                       <a href="" class="btn btn-secondary" style="background-color: lightgray"><i class="bi bi-dash-lg"></i></a>
                   </td>
@@ -107,7 +112,12 @@
                   <td>0.00</td>
                   <td>0.00</td>
                   <td>0.00</td>
-                  <td>Select an Option</td>
+                  <td><select class="form-select" aria-label="Default select example">
+                    <option selected>Select an Option</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select></td>
                   <td>
                       <a href="" class="btn btn-secondary" style="background-color: lightgray"><i class="bi bi-dash-lg"></i></a>
                   </td>
