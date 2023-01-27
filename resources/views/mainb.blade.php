@@ -20,7 +20,7 @@
         <div class="jumbotron">
 
             <h1>Test UI Vue.js</h1>
-            Oleh : Agit Ari Irawan
+             Oleh : Agit Ari Irawan
             
         </div>
 

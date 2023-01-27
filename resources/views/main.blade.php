@@ -17,7 +17,7 @@
         <!-- Content here -->
         
         {{-- Header --}}
-        <div class="jumbotron">
+    <div class="jumbotron">
 
             <h1>Test UI Vue.js</h1>
             Oleh : Agit Ari Irawan
@@ -44,7 +44,12 @@
                     <td>Customer Contract</td>
                   </tr>
                   <tr>
-                    <td>Amarit</td>
+                    <td><select class="form-select" aria-label="Default select example">
+                      <option selected>Amarit & Associates logistics Co ltd</option>
+                      <option value="1"></option>
+                      <option value="2"></option>
+                      <option value="3"></option>
+                    </select></td>
                     <td>john</td>
                     <td>ABC</td>
                     <td>Mito</td>
@@ -52,7 +57,7 @@
                   </tr>
                   <tr>
                     <td>Vendor Address</td>
-                    <td>Marubeni-ItoChu</td>
+                    <td>Marubeni-ItoChu Tublars Asia Pte Ltd2</td>
                     <td></td>
                     <td></td>
                     <td>AI</td>
@@ -83,19 +88,29 @@
                 <tr>
                   <td>Description</td>
                   <td>Qty</td>
-                  <td>SHP</td>
+                  <td><select class="form-select" aria-label="Default select example">
+                    <option selected>SHP</option>
+                    <option value="1">10000</option>
+                    <option value="2">20000</option>
+                    <option value="3">30000</option>
+                  </select></td>
                   <td>Unit Price</td>
                   <td>0</td>
                   <td>0</td>
-                  <td>USD</td>
+                  <td><select class="form-select" aria-label="Default select example">
+                    <option selected>USD</option>
+                    <option value="1">10000</option>
+                    <option value="2">20000</option>
+                    <option value="3">30000</option>
+                  </select></td>
                   <td>0.00</td>
                   <td>0.00</td>
                   <td>0.00</td>
-                  <<td><select class="form-select" aria-label="Default select example">
+                  <td><select class="form-select" aria-label="Default select example">
                     <option selected>Select an Option</option>
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
+                    <option value="1">10000</option>
+                    <option value="2">20000</option>
+                    <option value="3">30000</option>
                   </select></td>
                   <td>
                       <a href="" class="btn btn-secondary" style="background-color: lightgray"><i class="bi bi-dash-lg"></i></a>
@@ -104,11 +119,21 @@
                 <tr>
                   <td>Description</td>
                   <td>Qty</td>
-                  <td>SHP</td> 
+                  <td><select class="form-select" aria-label="Default select example">
+                    <option selected>SHP</option>
+                    <option value="1">10000</option>
+                    <option value="2">20000</option>
+                    <option value="3">30000</option>
+                  </select></td>
                   <td>Unit Price</td>
                   <td>0</td>
                   <td>0</td>
-                  <td>AED</td>
+                  <td><select class="form-select" aria-label="Default select example">
+                    <option selected>AED</option>
+                    <option value="1">10000</option>
+                    <option value="2">20000</option>
+                    <option value="3">30000</option>
+                  </select></td>
                   <td>0.00</td>
                   <td>0.00</td>
                   <td>0.00</td>
